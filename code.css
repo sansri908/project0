@@ -1,9 +1,11 @@
-h1 {
+p {
   color: red;
+  font-size: 60px;
 }
 
 div {
-  color: green;
+  color: blue;
+  font-size: 50px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -11,30 +13,25 @@ div {
     background-color: lightblue;
   }
 }
-a {
+.link {
   color: green;
-  font-size: 25px;
+  font-size: 45px;
 }
 
-a:hover {
+.link:hover {
   color: blue;
-  font-size: 30px;
+  font-size: 55px;
 }
 
 ul, ol {
-  color: green;
+  color: blue;
 }
 ul ul, ul ol, ol ul, ol ol {
   color: red;
 }
 
-.list {
-  border: 1px solid #ccc;
-  padding: 10px;
-  color: #333;
+ul, ol {
+  padding: 20px;
 }
-<<<<<<< HEAD
-=======
 
 /*# sourceMappingURL=code.css.map */
->>>>>>> ba8604066405af6de4f5ccec601c78d488078c58

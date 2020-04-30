@@ -1,39 +1,39 @@
 $color: red;
 $othercolor: green;
+$textcolor: blue;
 
-h1 {
+p {
   color: $color;
+  font-size: 60px;
 }
 div {
-  color: $othercolor;
+  color: $textcolor;
+  font-size: 50px
 }
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
   }
 }
-a {
+.link {
   color: $othercolor;
-  font-size: 25px;
+  font-size: 45px;
 }
-a:hover {
-  color: blue;
-  font-size: 30px;
+.link:hover {
+  color: $textcolor;
+  font-size: 55px;
 }
 ul,ol{
-  color:$othercolor;
+  color: $textcolor;
   ul,ol{
     color: $color;
   }
 }
 
 %list {
-  border: 1px solid #ccc;
-  padding: 10px;
-  color: #333;
+  padding: 20px;
 }
 
-
-.list{
+ul,ol{
   @extend %list;
 }
