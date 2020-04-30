@@ -20,3 +20,18 @@ a:hover {
   color: blue;
   font-size: 30px;
 }
+
+ul, ol {
+  color: green;
+}
+ul ul, ul ol, ol ul, ol ol {
+  color: red;
+}
+
+.list {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+/*# sourceMappingURL=code.css.map */
