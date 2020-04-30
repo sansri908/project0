@@ -8,9 +8,21 @@ div {
   font-size: 50px;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+@media only screen and (max-width: 1000px) {
+  p {
+    font-size: 40px;
+  }
+
+  div {
+    font-size: 30px;
+  }
+
+  .link {
+    font-size: 25px;
+  }
+
+  .link:hover {
+    font-size: 35px;
   }
 }
 .link {
