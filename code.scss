@@ -20,3 +20,20 @@ a:hover {
   color: blue;
   font-size: 30px;
 }
+ul,ol{
+  color:$othercolor;
+  ul,ol{
+    color: $color;
+  }
+}
+
+%list {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+
+.list{
+  @extend %list;
+}
