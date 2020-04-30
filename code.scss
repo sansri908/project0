@@ -11,3 +11,11 @@ div {
     background-color: lightblue;
   }
 }
+a {
+  color: $othercolor;
+  font-size: 25px;
+}
+a:hover {
+  color: blue;
+  font-size: 30px;
+}
