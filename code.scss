@@ -6,13 +6,13 @@ p {
   color: $color;
   font-size: 60px;
 }
-div {
+#text {
   color: $textcolor;
   font-size: 50px
 }
 @media only screen and (max-width: 1000px) {
 p {font-size: 40px}
-div {font-size: 30px}
+#text {font-size: 30px}
 .link {font-size: 25px}
 .link:hover {font-size: 35px}
 }
@@ -37,4 +37,8 @@ ul,ol{
 
 ul,ol{
   @extend %list;
+}
+
+.align {
+  text-align: center;
 }

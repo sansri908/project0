@@ -3,7 +3,7 @@ p {
   font-size: 60px;
 }
 
-div {
+#text {
   color: blue;
   font-size: 50px;
 }
@@ -13,7 +13,7 @@ div {
     font-size: 40px;
   }
 
-  div {
+  #text {
     font-size: 30px;
   }
 
@@ -44,6 +44,10 @@ ul ul, ul ol, ol ul, ol ol {
 
 ul, ol {
   padding: 20px;
+}
+
+.align {
+  text-align: center;
 }
 
 /*# sourceMappingURL=code.css.map */
